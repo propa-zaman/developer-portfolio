@@ -19,12 +19,18 @@
     padding: 18px 36px;
 
 }
+.header{
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
 
 /* header and navigation style */
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 0 50px 200px;
 }
 
 .nav-title {
